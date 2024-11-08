@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  background-color: teal;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section form {
+  margin-top: 30px;
+  justify-content: center;
+  height: 250px;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: red;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+section form input,
+form button {
+  padding: 10px;
+  outline: none;
+}
+
+.title {
+  text-align: center;
+  margin-top: 20px;
+}
+.title p{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+h1{
+  text-align: center;
+}
